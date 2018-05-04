@@ -1,0 +1,11 @@
+CS 0447 Computer Organization and Assembly Language
+
+Computers as real, physical objects allow for the algorithms and programs we create to be utilized to solve problems. 
+This course presents the concepts and implementation details necessary to explore how a computer is designed (its architecture) and works. 
+We will discuss issues including representing data, building a useful set of primitive instructions (machine and assembly language) to build programs from, a real example
+ of such an instruction set called MIPS, the design of electronic circuitry to do useful work, and putting together small circuits to build a working CPU.
+
+- Understand how data can be represented and manipulated by electronic circuits.
+- Write, read, and understand programs written in a low-level assembly language (MIPS)
+- Design circuits that can do computations
+- Construct a simple CPU that can execute instructions that perform useful work for general computation

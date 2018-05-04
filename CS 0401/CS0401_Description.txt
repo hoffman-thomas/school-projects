@@ -1,0 +1,23 @@
+CS 0401 Intermediate Programming Using Java
+
+Computers are ubiquitous tools that have and will continue to shape our world. In common usage for only half of a century, in their short existence they have already revolutionized science, art, business, and entertainment. 
+However, at their core, computers are simple machines that can only do basic mathematical computations (addition, subtraction, multiplication, division, etc.) and make decisions based upon fundamental rules of logic. 
+How then, can such basic operations be utilized to make something so powerful?
+
+The act of programming a computer requires us to translate a problem we wish to solve, be it a math problem, a business problem, or even a video game, into a representation that the computer 
+and its simple operations can manipulate. This requires at least two steps:
+
+First, we must model the problem as information we call data. Data can be anything from the values of a science experiment to a collection of the very letters that comprise the sentence you are reading.  
+For real, life-sized problems, we will build as complex of a model as is necessary up from smaller components, starting with those fundamental to a computer, and turning them into larger units that we will call objects.
+
+Second, we must encode the interaction and manipulation of those objects as code: The collection of computer operations that transforms data using well-defined rules.
+In this class, we will choose to describe our computer programs in a programming language called Java. Java is a programming language built around the creation and management of objects 
+in terms of the data they contain and the code that acts upon them. There are many Object-Oriented Programming Languages, but Java is a good choice for both learning and real-life use. 
+The skills that we learn in Java will be easily transferrable to other programming languages and even other programming paradigms.
+
+At the end of this course, students will be able to:
+·         Write programs in the Java programming language that utilize objects from the Java class library as well as custom-objects that model the problem being solved.
+·         Understand and utilize the tools necessary to create and run a Java program, understand the output when errors occur, and to solve errors at compile time and run time using the skill of debugging.
+·         Use and apply simple data structures such as arrays and similar collections to hold aggregate data.
+·         Develop and appreciate basic algorithms such as searching and sorting.
+·         Have the foundation necessary to proceed to further courses in the computer science/engineering and information science fields.

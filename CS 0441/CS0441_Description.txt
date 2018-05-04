@@ -1,0 +1,14 @@
+CS 0441 Discrete Structures for CS
+
+The purpose of this course is to understand and use (abstract) discrete structures that are backbones of computer science. 
+In particular, this class is meant to introduce logic, proofs, sets, relations, functions, counting, and probability, with an emphasis on applications in computer science.
+
+Logic: propositional logic, logical equivalence, predicates and quantifiers, logical reasoning.
+Sets: basics, set operations
+Functions: one-to-one, onto, inverse, composition
+Sequences and Summations
+Integers: greatest common divisor, modular arithmetic
+Mathematical reasoning: proof strategies, mathematical induction, recursive definitions, structural induction
+Relations: properties, combining relations, closures, equivalence, partial ordering
+Counting: basic rules, pigeon hole principle, permutations and combinations, binomial coefficients
+Probability: Discrete probability, expected value, variance

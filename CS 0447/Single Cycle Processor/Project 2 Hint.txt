@@ -1,0 +1,50 @@
+Project 2 Help
+
+
+
+1. First, ensure that your register file is working.
+Compare your register file to the solution for Part 1 of Lab 10.  
+The solution is posted in the Lab 10 content area on CourseWeb.
+
+
+
+2.Then, build the ALU.  You are allowed to use any component in the LogiSim library. 
+Test it at the sub-component level.  
+Make sure it can add, subtract, shift, etc.
+
+
+
+3. To see how to interconnect components, study the slides http://people.cs.pitt.edu/~zhangyt/teaching/cs0447/10.single.pdf.  
+The slides will not show you how to connect the components exactly in some cases, but if you understand the slides, you will most likely understand 
+how to connect your project's components.
+
+
+
+4. Create control circuitry using Logisim's combinational analysis.  Add instruction memory.
+
+
+
+5. Get one instruction to work.
+
+Manually poke that instruction into instruction memory (ROM) or into a temporary 16-bit input pin as shown during the tutorial.  
+Then, split that instruction appropriately .  Trace how the instruction moves through your circuit and controls it.
+
+
+
+6. Repeat step 5 for another instruction until you have implemented the full instruction set. 
+
+
+
+7. Re-attach the ROM if you were using a temporary 16-bit input pin.  Assemble a multi-line test program. 
+Load the output of the assembler into ROM.  Test your multi-line program.
+
+To assemble a program, use perl and the provided perl script. 
+See the "JrMIPS Assembler Reference Manual" document in the Project 2 content area on CourseWeb.
+
+
+(If you do not have perl on your computer and do not want to install perl on your computer, run perl on the University's timesharing UNIX machine.  
+Follow the appropriate instructions to connect at http://technology.pitt.edu/tags/unix-timesharing.  After you login, 
+you may use this command to create machine code: "perl /afs/pitt.edu/home/g/p/gpg4/public/jrmipsasm.pl progname.asm > progname.txt" and 
+its RAM data file "perl /afs/pitt.edu/home/g/p/gpg4/public/jrmipsasm.pl -d progname.asm > progname.dat". 
+ The RAM data file is needed only when the .asm file has a .data section.  Use WinSCP or scp to copy the progname.txt and progname.dat files from the
+ University's timesharing UNIX machine to your PC.  Follow the instructions in progname.txt and progname.dat.) 
